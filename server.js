@@ -11,7 +11,7 @@ const knexConfig = {
     useNullAsDefault: true,
 }
 
-const db = require('./data/users-auth');
+// const db = require('./data/users-auth');
 const bcrypt = require('bcryptjs');
 
 server.use(express.json());
