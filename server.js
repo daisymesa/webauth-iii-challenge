@@ -1,8 +1,10 @@
 const express = require('express');
 
-const db = require('./data');
+const db = require('./data/user');
 
 const server = express();
+
+const bcrypt = require('bcryptjs');
 
 server.use(express.json());
 
