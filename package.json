@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/daisymesa/webauth-iii-challenge#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "server": "^1.0.19"
   },
